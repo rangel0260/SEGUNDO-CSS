@@ -1,7 +1,13 @@
+body p{ 
+color: green; 
+} 
 body{
 	background-color: black;
-	color: white;
+	color: white !important;
 	font-family: Verdana;
+}
+        body{ 
+color: red; 
 }
 	h1 {
 	font-family: Arial;
@@ -13,6 +19,10 @@ body{
             	margin-top: 10px;
 	        margin-left: 20px;
         }
-        img{
-             background-color: white;
+        div img{
+             background-color: red;
         }
+
+p{
+	color: blue;
+}
